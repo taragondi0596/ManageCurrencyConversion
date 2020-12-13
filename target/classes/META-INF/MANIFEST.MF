@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: manageCurrencyConversion
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: TaranginiGondimalla
+Implementation-Vendor-Id: com.ibm
+Build-Jdk: 1.8.0_172
+Implementation-URL: https://spring.io/projects/spring-boot/manageCurre
+ ncyConversion
+Created-By: Maven Integration for Eclipse
+

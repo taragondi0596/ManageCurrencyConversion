@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:currency_db
+    driver-class-name: org.h2.Driver
+    username: ibm
+    password: ibm123
+    
+   
+  h2:
+    console:
+      enabled: true
+
+  application:
+    name: manage-currency
+    
+
+server:
+  port: 8103
+  
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
+
+  client:
+    service-url:
+      defaultZone : http://localhost:8100/eureka
+      
